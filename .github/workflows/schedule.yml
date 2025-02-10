@@ -1,7 +1,7 @@
 name: Update gist with TypeRacer stats
 on:
   schedule:
-    - cron: "0 0 * * *" # hourly
+    - cron: "0 0,12 * * *" # twice a day
   push:
     branches: master # on push
   workflow_dispatch: # manual trigger
